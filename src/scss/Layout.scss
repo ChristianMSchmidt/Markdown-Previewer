@@ -1,0 +1,28 @@
+#siteHeading {
+  margin: 1rem 0;
+  font-size: 3rem;
+  text-align: center;
+  font-family: $headingFont;
+  
+  @media screen and (max-width: 320px) {
+    font-size: 2.5rem;
+  }
+}
+#container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 62.5rem;
+  overflow: hidden;
+}
+
+#links {
+  margin-top: 1rem;
+  text-align: center;
+  clear: both;
+  a {
+    margin: 0 1rem;
+	  font-family: inherit;
+	  color: inherit;
+	  text-decoration: none;
+  }
+}

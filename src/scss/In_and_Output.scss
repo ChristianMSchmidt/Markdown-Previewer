@@ -1,0 +1,40 @@
+$panel-height: 31.250rem;
+$panelHeading-height: 2.5rem;
+
+.panel {
+  width: 48%;
+  height: $panel-height;
+  .panelHeading {
+    line-height: $panelHeading-height;
+    margin: 0;
+    text-align: center;
+    background-color: $lightblue;
+    box-shadow: inset -0.125rem -0.125rem 0.625em darken($lightblue, 25%);
+  }
+  &:nth-child(1) {
+    float: left;
+  }
+  &:nth-child(2) {
+    float: right;
+  }
+  
+  @media screen and (max-width: 650px) {
+    width: 100%;
+  }
+}
+#editor, #preview {
+  width: 100%;
+  height: $panel-height - $panelHeading-height;
+}
+#editor {
+  padding: 0.6rem;
+  resize: none;
+  border: none;
+  &:focus {
+    box-shadow: inset 0 0 1rem darken($lightblue, 10%);
+  }
+}
+#preview {
+  margin: 0.6rem;
+  overflow: auto;
+}
