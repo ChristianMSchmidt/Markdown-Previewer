@@ -27,7 +27,7 @@ Youtube-Playlist from [remarkablemark](https://www.youtube.com/playlist?list=PLV
   ├ server.js
   ├ routes.js
   ├ client.js
-  ├ Component
+  ├ Components
   | ├ 404.js
   | ├ AppRoutes.js
   | ├ Layout.js

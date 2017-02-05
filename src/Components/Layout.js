@@ -15,7 +15,7 @@ class Layout extends React.Component {
           {this.props.children}
         </div>
         <div id="links">
-		      <a href="https://github.com/SehrOne/URL-Shortener" target="_blank" title="Github-Repo">
+		      <a href="https://github.com/SehrOne/Markdown-Previewer" target="_blank" title="Github-Repo">
 		        <i aria-hidden="true" className="fa fa-github fa-4x"></i>
 		      </a> 
 		      <a href="https://www.freecodecamp.com/sehrone" target="_blank" title="FreeCodeCamp-Profile">
