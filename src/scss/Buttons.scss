@@ -1,0 +1,12 @@
+.button {
+  line-height: 0.8rem;
+  width: 33.333%;
+  display: inline-block;
+  text-align: center;
+  box-shadow: inset 0px 0px 20px darken($lightblue, 25%);;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+.clear {
+  clear: both;
+}

@@ -10,13 +10,6 @@ $codeFont: 'Source Code Pro', monospace;
   font-family: $defaultFont;
   box-sizing: border-box;
 }
-code {
-  font-family: $codeFont;
-	padding: 0.125rem 0.25rem;
-  color: #c7254e;
-	background-color: #f9f2f4;
-	border-radius: 0.25rem;
-}
 html {
   font-size: 1rem;
   @media screen and (max-width: 31.250rem) {
@@ -24,6 +17,22 @@ html {
   }
 }
 
+code, pre {
+	padding: .125rem .25rem;
+	background-color: #f9f2f4;
+}
+code {
+  font-family: $codeFont;
+	padding: 0.125rem 0.25rem; /* Doubles Padding for Codeblocks */
+  color: #c7254e;
+	border-radius: 0.25rem;
+}
+blockquote {
+	border-left: 0.5rem solid #f9f2f4;
+	padding-left: 0.5rem;
+}
+
 @import "./Layout.scss";
 @import "./In_and_Output.scss";
+@import "./Buttons.scss";
 @import "./404.scss";
