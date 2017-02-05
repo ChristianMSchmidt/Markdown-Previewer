@@ -1,4 +1,5 @@
 import React from "react";
+
 import marked from "marked";
 const renderer = new marked.Renderer();
 // Open links in new Tabs
@@ -16,7 +17,7 @@ marked.setOptions({
 class MarkdownOutput extends React.Component {
   render() {
     return (
-      <div className="panel">
+      <div className="panel" id="previewContainer">
         <h3 className="panelHeading">Output</h3>
         <div id="preview" dangerouslySetInnerHTML={{__html: marked(this.props.input)}}></div>
       </div>
