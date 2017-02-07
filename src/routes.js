@@ -4,7 +4,7 @@ import { Route, IndexRedirect } from "react-router";
 /* Import the Components */
 import Layout from "./Components/Layout.js";
 import Previewer from "./Components/Previewer.js";
-import NotFoundPage from "./Components/404.js";
+import NotFoundPage from "./Components/NotFoundPage.js";
 
 const routes = (
   <Route path="/" component={Layout}>

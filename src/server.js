@@ -3,7 +3,7 @@ import React from "react";
 import { renderToString } from "react-dom/server";
 import { match, RouterContext } from 'react-router';
 import routes from "./routes.js";
-import NotFoundPage from "./Components/404.js";
+import NotFoundPage from "./Components/NotFoundPage.js";
 
 const app = express();
 
