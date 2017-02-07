@@ -14,7 +14,9 @@
 ## Helpful tutorials:  
 React on the Server for Beginners: Build a Universal React and Node App ([Scotch.io](https://scotch.io/tutorials/react-on-the-server-for-beginners-build-a-universal-react-and-node-app))  
 Youtube-Playlist from [remarkablemark](https://www.youtube.com/playlist?list=PLVgOtoUBG2md5HxaABCcnfstF88CPzUeD)  
-[Optimizing Webpack](http://survivejs.com/webpack/optimizing-build/minifying/)
+[Optimizing Webpack](http://survivejs.com/webpack/optimizing-build/minifying/)  
+[The Fine Art of the Webpack 2 Config](https://blog.flennik.com/the-fine-art-of-the-webpack-2-config-dc4d19d7f172#.fubeswh5v) by Alexander Flenniken  
+[Backend Apps with Webpack (Part I)](http://jlongster.com/Backend-Apps-with-Webpack--Part-I) by James Long 
 
 ## File Structure:
 ```
