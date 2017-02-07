@@ -2,9 +2,6 @@
 # Ignore the compiled Javascript and CSS from Webpack
 public
 
-# Ignore the compiled Javascript from Babel
-lib
-
 # Created by https://www.gitignore.io/api/node
 
 ### Node ###
