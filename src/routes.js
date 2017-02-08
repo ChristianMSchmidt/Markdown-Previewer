@@ -7,7 +7,7 @@ import Previewer from "./Components/Previewer.js";
 import NotFoundPage from "./Components/NotFoundPage.js";
 
 const routes = (
-  <Route path="/" component={Layout}>
+  <Route path="/Markdown-Previewer/" component={Layout}>
       <IndexRoute component={Previewer} />
       <Route path ="/Markdown-Previewer/*" component={NotFoundPage} />
   </Route>

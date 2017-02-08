@@ -7,7 +7,7 @@ class NotFoundPage extends React.Component {
       <div className="not-found container">
         <h1>ERROR: 404</h1>
         <h2>This page does not exist</h2>
-        <p><Link to="/">Go back</Link></p>
+        <p><Link to="/Markdown-Previewer/">Go back</Link></p>
       </div>
     )
   }
