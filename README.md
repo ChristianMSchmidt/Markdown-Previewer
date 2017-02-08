@@ -1,3 +1,11 @@
+# Changes for gh-pages branch:
+- Don't ignore public-directory in .gitignore
+- followed steps from [spa-github-pages](https://github.com/rafrex/spa-github-pages)
+  - Add 404.html
+  - Add index.html
+  - Updated Routes (added repo-name)
+  - Switched the IndexRedirect to an IndexRoute (in routes.js)
+
 # Markdown-Previewer
  A Markdown-Previewer for [freeCodeCamps React Projects](https://www.freecodecamp.com/challenges/build-a-markdown-previewer)  
 

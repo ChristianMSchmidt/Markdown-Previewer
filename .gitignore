@@ -1,6 +1,9 @@
 
 # Ignore the compiled Javascript and CSS from Webpack
-public
+#####################################
+# !!! Don't Ignore for gh-pages """ #
+#####################################
+# public
 
 # Created by https://www.gitignore.io/api/node
 
